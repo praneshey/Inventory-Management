@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: rgb(9, 169, 233);
+	font-family: "arial";
+}
+
+h4{
+	font-size: 40px;
+}
+
+form{
+	margin: 50px 0;
+}
+
+.trackOrder{
+	margin: 22px auto;
+	text-align: center;
+	font-size: 30px;
+	color: #fef;
+}
+
+.ip{
+	width: 250px;
+	height: 25px;
+	border-radius: 3px;
+	padding-left: 10px;
+	border: 1px solid white;
+	font-size: 18px;
+}
+.ip:focus{
+	outline: none;
+}
+
+.trackOrder-btn{
+	font-size: 18px;
+	background-color: #a8caf1;
+	color: rgb(97 104 107);
+	width: 90px;
+	height: 25px;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+.row{
+	margin: 10px 290px;
+	text-align: center;
+}
+.button{
+	width: 200px;
+	height: 200px;
+	backdrop-filter: blur(19px) saturate(193%);
+    -webkit-backdrop-filter: blur(19px) saturate(193%);
+    background-color: rgba(17, 25, 40, 0.61);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.button:hover{
+	background-color: #eee;
+	color: rgb(9, 169, 233);
+}
+
+.icon-btn{
+	width: 100%;
+	margin: 20px auto;
+	font-size: 30px;
+}
+
+.truck-img{
+	margin-left: 80%;
+	bottom: 30px;
+	color: rgb(97 104 107);
+}
+
+hr{
+	margin: 0;
+	width: 100%;
+	border: none;
+	border-top: 5px solid rgb(97 104 107);
+}
+
+footer{
+	margin: 2% 0 10px;
+
+}
